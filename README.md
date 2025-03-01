@@ -1,2 +1,2 @@
 # Calculator
-A simple Calculator i was trying to make
+A simple Calculator used to calculate simple equations :)
