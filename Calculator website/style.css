@@ -1,0 +1,57 @@
+.title{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 40px;
+}
+
+#screen{
+    text-align: end;
+    width: 80%;
+    font-size: 100px;
+    border:solid 5px;
+    background-color: rgb(255, 255, 255);
+
+}
+body {
+    background-color: rgb(119, 147, 121);
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    display: grid;
+
+}
+.calButtonBack {
+    margin: 25%;
+    margin-top: -0%;
+    width: 50%;
+    border: 10px solid;
+    text-align: center;
+    background-color: bisque;
+
+}
+.calculatorButtons {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 100px;
+    padding:10px 50px 10px 10px;
+    border-radius: 12px;
+    background-color: rgb(153, 164, 116);
+}
+.calculatorButtons:hover {
+    background-color: rgb(170, 169, 167);
+    box-shadow: 0px 2px 2px 2px;
+
+}
+.calculatorButtons:active {
+    background-color:rgb(107, 107, 105);
+
+}
+
+@media screen and (max-width: 1100px) {
+    .calButtonBack {
+        display: none;
+
+    }
+
+
+}

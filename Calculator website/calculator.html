@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet"href="style.css"></link>
+</head>
+<h4 class="title">Zhang Han's Calculator</h4>
+<body>
+   
+
+<section class="calButtonBack">
+   <div> <input id="screen" readonly></input> </div> <br><br>
+    <div class="firstRow">
+    <button class="calculatorButtons" onclick="displayInput('1')">1</button>
+    <button class="calculatorButtons" onclick="displayInput('2')">2</button>
+    <button class="calculatorButtons" onclick="displayInput('3')">3</button>
+    <button class="calculatorButtons" onclick="displayInput('+')">+</button><br>
+    </div>
+
+    <div class="secRow"><button class="calculatorButtons" onclick="displayInput('4')">4</button>
+    <button class="calculatorButtons" onclick="displayInput('5')">5</button>
+    <button class="calculatorButtons" onclick="displayInput('6')">6</button>
+    <button class="calculatorButtons" onclick="displayInput('-')">&minus;</button><br>
+    </div>
+
+    <div class="thirdRow"><button class="calculatorButtons" onclick="displayInput('7')">7</button>
+    <button class="calculatorButtons" onclick="displayInput('8')">8</button>
+    <button class="calculatorButtons" onclick="displayInput('9')">9</button>
+    <button class="calculatorButtons" onclick="displayInput('*')">&times;</button><br>
+    </div>
+
+    <div class="lastRow"><button class="calculatorButtons" onclick="displayInput('0')">0</button>
+        <button class="calculatorButtons" onclick="clearDisplay()">C</button>
+        <button class="calculatorButtons" onclick="calculate()">=</button>
+        <button class="calculatorButtons" onclick="displayInput('/')">&div;</button>
+
+    </div>
+ </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
